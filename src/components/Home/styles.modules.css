@@ -1,0 +1,48 @@
+.main-body-container {
+  background-image: url("/public/images/homeBackground.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 10px;
+  width: 98.5%;
+  height: 100%;
+  max-width: 530px;
+}
+.body--title {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.body--description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.body--text {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 700px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.get-van-button {
+  width: 100%;
+  background-color: #ff8c38;
+  border: none;
+  height: 50px;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+}

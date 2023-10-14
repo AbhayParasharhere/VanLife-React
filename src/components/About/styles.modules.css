@@ -1,0 +1,70 @@
+.container {
+  max-width: 550px;
+  transition: all ease-in-out 600ms;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mainText {
+  padding: 49px 27px 32px 27px;
+
+  color: #161616;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.bodyText {
+  padding: 0px 27px 55px 27px;
+  color: #161616;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 137.5% */
+}
+
+.calloutSection {
+  padding: 32px 37px;
+  border-radius: 5px;
+  background: #ffcc8d;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.calloutText {
+  color: #161616;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 125% */
+}
+
+.calloutButton {
+  display: inline-flex;
+  width: fit-content;
+  padding: 12px 22px 13px 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: #161616;
+  color: var(--white, #fff);
+  font-family: Inter;
+  font-size: 15.946px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.919px; /* 150% */
+}
+
+.calloutButton:hover {
+  scale: 1.02;
+  cursor: pointer;
+}
