@@ -4,6 +4,8 @@ import Home from "/src/components/Home";
 import About from "/src/components/About";
 import Header from "/src/components/Header";
 import Footer from "/src/components/Footer";
+import VansListPage from "/src/components/VansListPage";
+import "./server";
 
 export default function App() {
   return (
@@ -13,6 +15,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
+          <Route path="/vans" element={<VansListPage />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
