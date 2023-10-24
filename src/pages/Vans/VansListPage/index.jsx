@@ -39,7 +39,7 @@ const VansListPage = () => {
         data.vans.map((van) => {
           return (
             <div className="vanCardContainer" key={van.id}>
-              <Link to={`vans/${van.id}`} className="vanLink">
+              <Link to={`/vans/${van.id}`} className="vanLink">
                 <img src={van.imageUrl} className="vanImage" alt={van.name} />
                 <div className="vanCardDetail">
                   <div className="vanName">{van.name}</div>
