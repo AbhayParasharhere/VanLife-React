@@ -1,0 +1,15 @@
+.host-van-detail-info > h4 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  gap: 3px;
+}
+.host-van-detail-span::first-letter {
+  text-transform: uppercase;
+}
+.host-van-detail-info > h4 > span {
+  font-weight: 500;
+  display: block;
+}
