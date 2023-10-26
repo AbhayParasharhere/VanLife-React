@@ -1,0 +1,36 @@
+.notFoundContainer h1 {
+  color: #161616;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; /* 131.25% */
+}
+
+.notFoundContainer {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5px;
+}
+
+.notFoundContainer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31.662px; /* 175.898% */
+}
+
+.returnHome {
+  border-radius: 4.983px;
+  background: #161616;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+  margin-bottom: 100px;
+}

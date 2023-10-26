@@ -1,5 +1,11 @@
 import React from "react";
-import { useParams, Link, Outlet, NavLink } from "react-router-dom";
+import {
+  useParams,
+  Link,
+  Outlet,
+  NavLink,
+  useLocation,
+} from "react-router-dom";
 import "./styles.modules.css";
 
 export default function HostVanDetail() {
